@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Syne"/>
-    <title>Links website</title>
+    <title>Pranav Bagal - Web Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="icon" href="https://www.pinpng.com/pngs/m/199-1991967_dog-spicymeme-lit-doge-spooky-freetoedit-cursed-images.png" type="image/x-icon">
     <style>
       body {
@@ -72,6 +73,54 @@
         color: rgba(255, 204, 217) !important;
         background-color: rgba(255, 255, 179, 0.3) !important;
       }
+      .heading {
+        font-size: 2rem;
+        margin-bottom: 30px;
+      }
+      .skills-container {
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.skill-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+    transition: transform 0.3s;
+}
+
+.skill-item:hover {
+    transform: translateY(-5px);
+}
+
+.skill-icon {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+.email {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 8px;
+
+}
+.addr {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 8px;
+}
+.info {
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
     </style>
   </head>
 
@@ -81,42 +130,53 @@
       <!-- Image and name container. Change to your picture here. -->
       <div class="image-container">
         <img
-          src="https://cdn.britannica.com/37/171337-004-0B980E9D/Subhas-Chandra-Bose-Indian-National-Army.jpg"
+          src="/img/pranav-xs.jpg"
           class="w3-margin"
           alt="Person"
           max-width="100%"
           height="150px"
           style="border-radius: 50%"
         />
+      
 
         <!-- Content. Add bio. -->
         <div class="w3-text-white">
-          <p class="w3-large"><strong>Fredom is not given</br>Its taken</strong></p>
+          <p class="w3-large heading"><strong>Pranav Sanjay Bagal</strong>
+        
+          <p class="w3-text-white info">
+            <i class="fas addr fa-map-marker-alt"></i> Dhule, Maharashtra, India
+            <br>
+            <i class="fas email fa-envelope"></i> pranavbagalofficial@gmail.com
+          </p>  
         </div>
 
         <!-- Links section 1. Replace the # inside of the "" with your links. -->
         <div class="links-container">
-          <a href="https://tryhackme.com/p/Kleejenson" class="w3-button w3-hover-pink w3-large w3-round-xlarge w3-yellow link" target="_blank">TryHackMe</a>
-          <a href="https://github.com/cryptomafiaPB" class="w3-button w3-hover-pink w3-large w3-round-xlarge w3-yellow link" target="_blank">GitHub</a>
-          <a href="https://rest-countries-eight-zeta.vercel.app/" class="w3-button w3-hover-pink w3-large w3-round-xlarge w3-yellow link" target="_blank">Countries Project</a>
+          <h2 class="w3-text-white w3-center">My Projects</h2>
+          <a href="https://nft-marketplace-xi-teal.vercel.app/" class="w3-button w3-hover-pink w3-large w3-round-xlarge w3-yellow link" target="_blank">NFT Marketplace</a>
+          <a href="https://unpluggedraisoni.vercel.app/" class="w3-button w3-hover-pink w3-large w3-round-xlarge w3-yellow link" target="_blank">Uplugged Raisoni</a>
           <a href="https://yessports.vercel.app/" class="w3-button w3-hover-pink w3-large w3-round-xlarge w3-yellow link" target="_blank">YesSports</a>
           <a href="https://ironlink-main.vercel.app/" class="w3-button w3-hover-pink w3-large w3-round-xlarge w3-yellow link" target="_blank">ironLink</a>
-          <a href="https://thala-for-a-reason-07.vercel.app/" class="w3-button w3-hover-pink w3-large w3-round-xlarge w3-yellow link" target="_blank">Thala for Reason</a>
-          <a href="https://6550c6be8de2e175e2ae6c3a--boisterous-crostata-65277b.netlify.app/" class="w3-button w3-hover-pink w3-large w3-round-xlarge w3-yellow link" target="_blank">NotesApp</a>
+          <a href="https://firebase-chat-app-fawn-two.vercel.app/" class="w3-button w3-hover-pink w3-large w3-round-xlarge w3-yellow link" target="_blank">Firebase Chat App</a>
+          <a href="https://aadi-foundation-assignment.vercel.app/" class="w3-button w3-hover-pink w3-large w3-round-xlarge w3-yellow link" target="_blank">Facebook Insights</a>
+          <a href="https://github.com/cryptomafiaPB" class="w3-button w3-hover-pink w3-large w3-round-xlarge w3-yellow link" target="_blank">GitHub</a>
+          <a href="https://leetcode.com/u/mafiapb/" class="w3-button w3-hover-pink w3-large w3-round-xlarge w3-yellow link" target="_blank">Leetcode</a>
+          <a href="https://tryhackme.com/p/Kleejenson" class="w3-button w3-hover-pink w3-large w3-round-xlarge w3-yellow link" target="_blank">TryHackMe</a>
+          <a href="https://rest-countries-eight-zeta.vercel.app/" class="w3-button w3-hover-pink w3-large w3-round-xlarge w3-yellow link" target="_blank">Countries Project</a>
 
         </div>
       </div>
     </div>
-    <p hidden><small>Flag{bha98h0sdk}</small></p>
+    <p hidden><small>Hi welcome to the code</small></p>
     <!-- Blog entry. Change the text and link to your most recent post. -->
     <div class="w3-content w3-padding-32 w3-center" style="padding-right: 10px; padding-left: 10px; max-width: 600px">
-      <p class="w3-text-white"><strong>Welcome</strong></p>
+      <!-- <p class="w3-text-white"><strong>Welcome</strong></p>
       <h3 class="w3-text-white">Follow our Socials</h3>
-      <h5 class="w3-text-white">, cryptomafiaPB <br> <a href="https://t.me/hackerzteamz">Join a Team chat on TELEGRAM</a></h5>
+      <h5 class="w3-text-white"></h5>
       <p class="w3-text-white">
-        Join the team!!!
-      </p>
-      <div class="w3-row">
+        
+      </p> -->
+      <!-- <div class="w3-row">
         <div class="w3-col m8 s12">
           <p>
             <button class="w3-button w3-yellow w3-padding-large w3-round-xlarge">
@@ -127,14 +187,69 @@
         <div class="w3-col m4 w3-hide-small">
           <p>
             <span class="w3-padding-large w3-right w3-text-white">
-              <b>Comments</b>
+              <b></b>
               <span class="w3-badge w3-yellow">
-                3
+                
               </span>
             </span>
           </p>
         </div>
-      </div>
+      </div> -->
+
+      <div class="skills-container">
+    <h2 class="w3-text-white w3-center">My Skills</h2>
+    <div class="skills-grid">
+        <div class="skill-item">
+            <i class="fab fa-python skill-icon"></i>
+            <span>Python</span>
+        </div>
+        <div class="skill-item">
+            <i class="fab fa-java skill-icon"></i>
+            <span>Java</span>
+        </div>
+        <div class="skill-item">
+            <i class="fab fa-js skill-icon"></i>
+            <span>JavaScript</span>
+        </div>
+        <div class="skill-item">
+            <i class="fab fa-react skill-icon"></i>
+            <span>React</span>
+        </div>
+        <div class="skill-item">
+            <i class="fab fa-node skill-icon"></i>
+            <span>Node.js</span>
+        </div>
+        <div class="skill-item">
+            <i class="fab fa-html5 skill-icon"></i>
+            <span>HTML5</span>
+        </div>
+        <div class="skill-item">
+            <i class="fab fa-css3-alt skill-icon"></i>
+            <span>CSS3</span>
+        </div>
+        <div class="skill-item">
+            <i class="fab fa-github skill-icon"></i>
+            <span>Git</span>
+        </div>
+        <div class="skill-item">
+            <i class="fas fa-database skill-icon"></i>
+            <span>MongoDB</span>
+        </div>
+        <div class="skill-item">
+            <i class="fas fa-server skill-icon"></i>
+            <span>Express</span>
+        </div>
+        <div class="skill-item">
+            <i class="fab fa-npm skill-icon"></i>
+            <span>TypeScript</span>
+        </div>
+        <div class="skill-item">
+            <i class="fab fa-css3 skill-icon"></i>
+            <span>Tailwind</span>
+        </div>
+    </div>
+</div>
+
       <!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
       <footer class="w3-container w3-center w3-padding-48 w3-margin-top">
         <a class="w3-margin-bottom" href="https://www.w3schools.com/spaces" target="_blank">
